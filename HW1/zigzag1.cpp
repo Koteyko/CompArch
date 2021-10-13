@@ -5,6 +5,7 @@ using namespace std;
 #define bitOf(num, bit) ((num >> bit) & 1)
 
 int main() {
+	//тип a, b легко меняется на int, long и т.д.
 	short int a;
 	short int b;
 
