@@ -103,3 +103,15 @@ module ternary_consensus(a0, a1, b0, b1, out0, out1);
   and_switch and2(a0_nor_b0, a1_and_b1, out1);
   
 endmodule
+
+module ternary_max(a0, a1, b0, b1, out0, out1);
+  input a0, a1, b0, b1;
+  output out0, out1;
+
+endmodule
+
+module ternary_any(a0, a1, b0, b1, out0, out1);
+  input a0, a1, b0, b1;
+  output out0, out1;
+
+endmodule
